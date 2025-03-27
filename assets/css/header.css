@@ -72,3 +72,14 @@
   font-size: 12px;
 }
 
+.header-conent nav{
+  margin-top: 24px;
+}
+
+.header-content--ul{
+  display:flex;
+  align-items:center;
+  list-style: none;
+  justify-content: space-between;
+}
+
