@@ -1,0 +1,42 @@
+.hero-container{
+  background-color: #E7E7EA;
+  height:510px;
+  width:100%;
+}
+
+.hero-content{
+  width:100%;
+  max-width:1288px;
+  margin:0 auto;
+}
+
+.hero-content--image{
+  width:685px;
+  height:510px;
+}
+
+.hero-conent-textArea{
+  text-align:center;
+}
+
+.hero-content--textXL{
+  font-size:100px;
+  font-weight:700;
+}
+
+.hero-content--span{
+  font-weight:300;
+}
+
+.hero-content--textColorOne{
+    font-weight:700;
+    font-size:25px;
+    letter-spacing:6px;
+    color:var(--primary-color);
+}
+
+.hero-content--textColorTwo{
+  font-weight:700;
+  font-size:60px;
+  color:var(--primary-color);
+}
