@@ -1,0 +1,74 @@
+.header__container{
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  margin-top: 22px;
+}
+
+.header__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__content--inputarea {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.header__content--input {
+  width: 595px;
+  height: 40px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 0 16px;
+  margin-left: 65px;
+}
+
+.header__content--button {
+  all: unset;
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #666;
+}
+
+.header-content--userIcon{
+  font-size:40px;
+  color:var(--primary-color);
+}
+
+.header-content--text{
+  font-wght:600;
+  font-size:14px;
+}
+
+.headerr-content-cartArea{
+  position:relative;
+  cursor:pointer;
+  margin-left: 24px;
+}
+
+.headerr-content-cartArea i{
+  font-size: 30px;
+}
+
+.header-conent-cartArea--badge{
+  position: absolute;
+  top: -2px;
+  right: -10px;
+  background-color: var(--primary-color);
+  color: white;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+

@@ -12,3 +12,13 @@
   font-family: 'Nunito Sans', sans-serif;
 }
 
+.flex-row-align{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-row-between{
+  display: flex;
+  justify-content: space-between;
+}
