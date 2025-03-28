@@ -3,6 +3,7 @@
   max-width: 75rem;
   margin: 0 auto;
   padding: 0 20px;
+  height:478px;
   margin-top: 6rem;
 } 
 
@@ -85,4 +86,16 @@
             background-color:var(--discount-color);
             color: white;
             border-radius: 4px;
+}
+
+.swiper {
+  position: relative;
+}
+
+/* Ajuste para a paginação */
+.swiper-pagination {
+  position: absolute;
+  bottom: 10px;  /* Ajuste a distância do fundo */
+  left: 50%;
+  transform: translateX(-50%); /* Centraliza a paginação */
 }
