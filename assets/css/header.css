@@ -1,8 +1,8 @@
 .header__container{
   width: 100%;
-  max-width: 1288px;
+  max-width: 80.5rem;
   margin: 0 auto;
-  margin-top: 22px;
+  margin-top: 1.375rem;
 }
 
 .header__content{
@@ -18,7 +18,7 @@
 }
 
 .header__content--input {
-  width: 595px;
+  width: 37.1875rem;
   height: 40px;
   padding: 8px 12px;
   border: 1px solid #ccc;

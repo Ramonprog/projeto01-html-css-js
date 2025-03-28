@@ -3,6 +3,7 @@
 :root {
   --primary-color:#005CFF;     
   --secondary-color:#6220C1;
+  --discount-color:#5EC0BE;
 }
 
 *{
@@ -20,5 +21,6 @@
 
 .flex-row-between{
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }

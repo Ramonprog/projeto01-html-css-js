@@ -1,18 +1,18 @@
 .hero-container{
   background-color: #E7E7EA;
-  height:510px;
+  height:31.875rem;
   width:100%;
 }
 
 .hero-content{
   width:100%;
-  max-width:1288px;
+  max-width:80.5rem;
   margin:0 auto;
 }
 
 .hero-content--image{
-  width:685px;
-  height:510px;
+  width:42.8125rem;
+  height:31.875rem;
 }
 
 .hero-conent-textArea{
