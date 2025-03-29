@@ -1,0 +1,35 @@
+.brand-promo{
+  width: 100%;
+  max-width: 1177px;
+  margin: 0 auto;
+ margin-top: 6rem;
+ margin-bottom: 3.4375rem;
+ display:flex;
+ align-items: center;
+ gap:2.375rem;
+}
+
+
+.brand-promo__left{
+  background-color: #C2C2C2;
+  width:40.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-promo__right{
+  display: flex;
+  flex-direction: column;
+  gap:22px;
+}
+
+.brand-promo__right h3{
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.brand-promo__right p{
+  font-size: 1.125rem;
+  font-weight: 400;
+}

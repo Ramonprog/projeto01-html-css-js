@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="assets/css/header.css">
   <link rel="stylesheet" href="assets/css/hero-section.css">
   <link rel="stylesheet" href="assets/css/cart-section.css">
+  <link rel="stylesheet" href="assets/css/brand-promo.css">
 
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -31,7 +32,7 @@
 
 <body>
   <!-- topbar -->
-   
+
   <header>
     <div class="topbar">
       <p class="topbar__text">Ganhe <span class="topbar__text--spanColor">R$10,00</span> de desconto no seu primeiro
@@ -336,6 +337,31 @@
     </div>
   </section>
 
+  <!-- brand promo -->
+
+  <section class="brand-promo">
+    <div class="brand-promo__left">
+      <img src="assets/images/brand.png" alt="caneca preta com o logo da Avanti">
+    </div>
+    <div class="brand-promo__right">
+      <h3>
+        Lorem Ipsum
+      </h3>
+      <p>
+        Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend
+        viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel
+        pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci,
+        auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.
+      </p>
+      <p>
+        Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend
+        viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel
+        pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci,
+        auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.
+      </p>
+    </div>
+  </section>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -365,8 +391,8 @@
         }
       },
       renderBullet: function (index, className) {
-      return '<span class="' + className + '">' + (index + 1) + "</span>";
-    },
+        return '<span class="' + className + '">' + (index + 1) + "</span>";
+      },
     });
   </script>
 </body>
