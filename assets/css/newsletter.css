@@ -1,0 +1,64 @@
+.newsletter {
+    text-align: center;
+    margin-top: 3.8125rem;
+   
+}
+
+.newsletter h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.newsletter h2 span {
+    color: blue;
+    font-weight: bold;
+}
+
+.newsletter__container {
+    background: #DEDEDE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    border-radius: 8px;
+    max-width: 1260px;
+    height:230px;
+    margin: 24px auto;
+}
+
+.newsletter__container input[type="text"],
+.newsletter__container input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 280px;
+    height: 48px;
+}
+
+.newsletter__checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #555;
+}
+
+.newsletter__checkbox a {
+    color: #656565;
+    margin-left: 4px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.newsletter__button {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.newsletter__button:hover {
+    background: darkblue;
+}
