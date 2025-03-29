@@ -24,3 +24,17 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.swiper-pagination {
+    bottom: 10px !important; 
+}
+
+.swiper-container {
+    height: 500px !important; 
+    width: 600px !important;
+    overflow: visible !important; 
+}
+
+.swiper-wrapper {
+    padding-bottom: 40px !important;
+}

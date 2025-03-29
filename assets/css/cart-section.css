@@ -21,7 +21,8 @@
 .card-section__carousel--area{
   display: flex;
   align-items: center;
- gap:17px
+ gap:17px;
+ 
 }
 
 .product-card {
@@ -31,7 +32,7 @@
   border-radius: 10px;
   padding:6px 8px 8px 8px ;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;,
 }
 
 .product-card__img {
@@ -88,14 +89,3 @@
             border-radius: 4px;
 }
 
-.swiper {
-  position: relative;
-}
-
-/* Ajuste para a paginação */
-.swiper-pagination {
-  position: absolute;
-  bottom: 10px;  /* Ajuste a distância do fundo */
-  left: 50%;
-  transform: translateX(-50%); /* Centraliza a paginação */
-}

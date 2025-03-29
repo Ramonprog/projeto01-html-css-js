@@ -31,6 +31,7 @@
 
 <body>
   <!-- topbar -->
+   
   <header>
     <div class="topbar">
       <p class="topbar__text">Ganhe <span class="topbar__text--spanColor">R$10,00</span> de desconto no seu primeiro
@@ -114,6 +115,7 @@
     </div>
 
   </header>
+
   <!-- hero-section -->
   <section class="hero-container">
     <div class="hero-content flex-row-align">
@@ -361,7 +363,10 @@
         480: {
           slidesPerView: 3,
         }
-      }
+      },
+      renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + (index + 1) + "</span>";
+    },
     });
   </script>
 </body>
