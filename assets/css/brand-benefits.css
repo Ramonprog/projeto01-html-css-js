@@ -1,0 +1,59 @@
+.brand-benefits{
+  width: 100%;
+  background-color: #DEDEDE;
+  height:819px;
+  display: flex;
+  align-items: center;
+}
+
+.brand-benefits__container{
+    width: 100%;
+    max-width: 1177px;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  gap:3.0625rem;
+}
+
+.brand-benefits__right img{
+  width:652px;
+  height:728px;
+}
+
+.brand-benefits__left{
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+}
+
+.brand-benefits__left h3{
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.brand-benefits__left--area {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.brand-benefits__left--icon {
+  height: 90px;
+  width: 90px;
+  min-width: 90px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.brand-benefits__left--icon i {
+  font-size: 2.8125rem;
+}
+
+.brand-benefits__left--area p {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
