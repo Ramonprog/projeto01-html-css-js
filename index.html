@@ -36,9 +36,8 @@
 </head>
 
 <body>
-  <!-- topbar -->
-
   <header>
+    <!-- topbar -->
     <div class="topbar">
       <p class="topbar__text">Ganhe <span class="topbar__text--spanColor">R$10,00</span> de desconto no seu primeiro
         pedido. Utilize o cupom <span class="topbar__text--spanDiscount">DESCONTO10</span> </p>
@@ -50,12 +49,14 @@
           <img src="assets/images/logo.png" class="header__content--logo" />
 
           <div class="header__content--inputarea">
-            <input type="text" class="header__content--input" placeholder="Digite aqui o que você procura">
-            <button class="header__content--button">
+            <input type="text" class="header__content--input" id="searchInput"
+              placeholder="Digite aqui o que você procura">
+            <button class="header__content--button" id="searchButton">
               <i class="bi bi-search"></i>
             </button>
           </div>
         </form>
+        <p id="searchMessage" class="search-message"></p>
 
         <div class="flex-row-align">
           <div class="flex-row-align">
@@ -916,6 +917,8 @@
       },
     });
   </script>
+
+  <script src="assets/js/search.js"></script>
 </body>
 
 </html>
