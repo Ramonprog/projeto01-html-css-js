@@ -10,6 +10,7 @@
     max-width: 1200px;
     margin: 0 auto;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .footer__brand {
@@ -84,3 +85,9 @@
     flex-wrap: wrap;
 }
 
+@media screen and (max-width:712px){
+  .footer__column{
+    width:100%;
+    margin-bottom:20px;
+  }
+}

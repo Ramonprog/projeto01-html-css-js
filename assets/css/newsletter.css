@@ -24,6 +24,7 @@
     max-width: 1260px;
     height:230px;
     margin: 24px auto;
+    flex-wrap: wrap;
 }
 
 .newsletter__container input[type="text"],

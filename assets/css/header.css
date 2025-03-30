@@ -9,16 +9,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  padding:0 20px
+}
+
+.header__content--form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%; 
+    
 }
 
 .header__content--inputarea {
   position: relative;
   display: flex;
   align-items: center;
+  flex:1;
 }
 
 .header__content--input {
-  width: 37.1875rem;
+  width: 100%;
+  max-width: 37.1875rem;
   height: 40px;
   padding: 8px 12px;
   border: 1px solid #ccc;
@@ -74,6 +86,7 @@
 
 .header-conent nav{
   margin-top: 24px;
+  padding:0 20px;
 }
 
 .header-content--ul{
@@ -81,5 +94,7 @@
   align-items:center;
   list-style: none;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap:20px;
 }
 

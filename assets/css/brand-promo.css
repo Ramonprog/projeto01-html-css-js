@@ -7,6 +7,7 @@
  display:flex;
  align-items: center;
  gap:2.375rem;
+
 }
 
 
@@ -16,6 +17,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.brand-promo__left img{
+  width:391px;
+  height:390px;
 }
 
 .brand-promo__right{
@@ -32,4 +38,18 @@
 .brand-promo__right p{
   font-size: 1.125rem;
   font-weight: 400;
+}
+
+@media screen and (max-width:1100px){
+  .brand-promo{
+    flex-wrap: wrap;
+  }
+  .brand-promo__left{
+    width:30.75rem;
+     width:100%;
+  }
+  .brand-promo__right{
+    width:100%;
+    padding:20px;
+  }
 }

@@ -45,7 +45,8 @@
     <!-- header -->
     <div class="header__container">
       <div class="header__content">
-        <form class="flex-row-align">
+        <i class="bi bi-list" id="menu-hamburger"></i>
+        <form class="header__content--form">
           <img src="assets/images/logo.png" class="header__content--logo" />
 
           <div class="header__content--inputarea">
@@ -59,7 +60,7 @@
         <p id="searchMessage" class="search-message"></p>
 
         <div class="flex-row-align">
-          <div class="flex-row-align">
+          <div class="flex-row-align" id="user-area">
             <i class="bi bi-person header-content--userIcon"></i>
             <div>
               <p class="mb-0 header-content--text">Olá,</p>
@@ -76,9 +77,8 @@
       </div>
 
       <!-- Navbar -->
-      <nav>
-
-        <ul class="header-content--ul">
+      <nav id="nav">
+        <ul class="header-content--ul" id="nav-ul">
 
           <li class="nav-item dropdown">
             <a class="nav-link  d-flex align-items-center gap-2" href="#" id="navbarDropdown" role="button"
@@ -117,6 +117,8 @@
             <a class="nav-link" href="#">Departamento</a>
           </li>
         </ul>
+
+        
       </nav>
     </div>
     </div>
@@ -391,8 +393,6 @@
             quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
         </div>
       </div>
-
-
 
       <div class="brand-benefits__right">
         <img src="assets/images/second-brand.png" alt="caneca preta com o logo da Avanti">
@@ -888,6 +888,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="assets/js/swiper-config.js"></script>
   <script src="assets/js/search.js"></script>
+  <script src="assets/js/menu-hamburger.js"></script>
 </body>
 
 </html>
