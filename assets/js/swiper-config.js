@@ -13,8 +13,8 @@ var swiper = new Swiper(".mySwiper", {
     cssMode: true,
     breakpoints: {
         1024: { slidesPerView: 5 },
-        768: { slidesPerView: 4 },
-        480: { slidesPerView: 3 }
+        768: { slidesPerView: 2 },
+        480: { slidesPerView: 1 }
     },
     renderBullet: function (index, className) {
         return '<span class="' + className + '">' + (index + 1) + "</span>";

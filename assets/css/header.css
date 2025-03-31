@@ -10,7 +10,8 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding:0 20px
+  padding:0 20px;
+  position:relative;
 }
 
 .header__content--form{
@@ -18,13 +19,12 @@
     align-items: center;
     justify-content: center;
     width: 50%; 
-    
 }
 
 .header__content--inputarea {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex:1;
 }
 
@@ -98,3 +98,29 @@
   gap:20px;
 }
 
+#menu-hamburger{
+ font-size:30px;
+}
+
+@media screen and (max-width:1300px){
+  .header__content--form{
+    width:100%;
+  }
+  .header__content--input{
+    margin:30px 0 16px 0;
+  }
+  .header__content--button {
+    bottom: 8px;
+    right: 15px;
+  }
+  .header__content--logo{
+    position:absolute;
+    top:5px;
+    left:130px;
+  }
+  .headerr-content-cartArea {
+    position:absolute;
+    right:25px;
+    top:-5px;
+  }
+}
