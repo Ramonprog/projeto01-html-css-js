@@ -53,3 +53,16 @@
     padding:20px;
   }
 }
+
+@media screen and (max-width:700px){
+  .brand-promo{
+    margin-top: 3.5rem; 
+  }
+
+  .brand-promo__right h3{
+    font-size: 1.5rem;
+  }
+  .brand-promo__right p{
+    font-size:.875rem ;
+  }
+}

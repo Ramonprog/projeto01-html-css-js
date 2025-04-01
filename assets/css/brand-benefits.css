@@ -88,3 +88,19 @@
     font-size: 12px;
   }
 }
+
+@media screen and (max-width:700px){
+  .brand-benefits__container{
+    margin-top: 3.5rem;
+    padding: 0 20px;
+  }
+  .brand-benefits__left{
+    gap:21px;
+  }
+  .brand-benefits__left--area{
+    gap:.875rem;
+  }
+  .brand-benefits__left--area p{
+    text-align: start;
+  }
+}

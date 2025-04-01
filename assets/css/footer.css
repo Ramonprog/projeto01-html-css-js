@@ -57,6 +57,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap:33px;
   margin-top: 3.8125rem;
 }
@@ -85,9 +86,36 @@
     flex-wrap: wrap;
 }
 
+.footer__mobile--box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.footer__mobile--box i{
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
 @media screen and (max-width:712px){
   .footer__column{
     width:100%;
     margin-bottom:20px;
+  }
+  .footer__brand{
+    width:100%;
+    align-items: center;
+  }
+  .footer__brand i{
+    font-size:1.625rem;
+  }
+  .footer-payments{
+      margin-top:1.875rem;
+  }
+  .sub-footer{
+    margin-top:2.5rem;
   }
 }

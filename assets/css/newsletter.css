@@ -63,3 +63,27 @@
 .newsletter__button:hover {
     background: darkblue;
 }
+
+@media (max-width: 768px) {
+    .newsletter{
+        width:358px;
+        margin:0 auto;
+      
+    }
+    .newsletter__container {
+        height:284px;
+        padding: 0 20px;
+       flex-direct: column;
+       gap:0;
+         background-color: #F5F5F5;
+    }
+    .newsletter__container input[type="text"],
+    .newsletter__container input[type="email"] {
+        width: 100%;
+        height: 48px;
+        margin:0;
+    }
+    .newsletter__button {
+        width: 100%;
+    }
+}
