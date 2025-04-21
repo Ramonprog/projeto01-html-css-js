@@ -43,51 +43,54 @@
   margin-bottom: 10px;
 }
 
-        /* Element: product-card__title */
-        .product-card__title {
-            font-size: 14px;
-           font-weight:400;
-        }
+/* Element: product-card__title */
+.product-card__title {
+   font-size: 14px;
+   font-weight:400;
+}
 
-        /* Element: product-card__price--old */
-        .product-card__price--old {
-            text-decoration: line-through;
-            color: #303030;
-            font-size: 14px;
-        }
+/* Element: product-card__price--old */
+.product-card__price--old {
+    text-decoration: line-through;
+    color: #303030;
+    font-size: 14px;
+}
 
-        /* Element: product-card__price--new */
-        .product-card__price--new {
-            font-size: 16px;
-            font-weight: 700;
-        }
+/* Element: product-card__price--new */
+.product-card__price--new {
+    font-size: 16px;
+    font-weight: 700;
+}
 
-        /* Element: product-card__installments */
-        .product-card__installments {
-            font-size: 12px;
-        }
+/* Element: product-card__installments */
+.product-card__installments {
+    font-size: 12px;
+}
 
-        /* Block: product-card__btn */
-        .product-card__btn {
-            margin-top: 16px;
-            width: 100%;
-            background-color: #007bff;
-            color: white;
-            border-radius: 5px;
-            padding: 8px;
-            font-size: 14px;
-            border: none;
-        }
+/* Block: product-card__btn */
+.product-card__btn {
+    margin-top: 16px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+}
 
 .product-card__price--discount {
   margin-left: 8px;
-   font-size: 11px;
-            font-weight: 700;
-            padding: 4px 8px;
-            background-color:var(--discount-color);
-            color: white;
-            border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 8px;
+  background-color:var(--discount-color);
+  color: white;
+  border-radius: 4px;
 }
+
+
+
 
 @media screen and (max-width:700px){
   .cart-section{

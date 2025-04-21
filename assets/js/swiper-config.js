@@ -1,22 +1,18 @@
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 5,
-    spaceBetween: 90,
+    loop: true,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
-        type: 'bullets'
+        type: 'bullets',
     },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
-    cssMode: true,
     breakpoints: {
-        1024: { slidesPerView: 5 },
-        768: { slidesPerView: 2 },
-        480: { slidesPerView: 1 }
-    },
-    renderBullet: function (index, className) {
-        return '<span class="' + className + '">' + (index + 1) + "</span>";
+        1024: { slidesPerView: 5, spaceBetween: 90 },
+        768: { slidesPerView: 4, spaceBetween: 60 },
+        520: { slidesPerView: 3, spaceBetween: 30 },
+        380: { slidesPerView: 1, spaceBetween: 10 },
     }
 });
