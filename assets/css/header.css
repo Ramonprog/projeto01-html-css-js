@@ -98,9 +98,33 @@
   gap:20px;
 }
 
-#menu-hamburger{
- font-size:30px;
+.drop-columns{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  height:20.625rem;
+  width:calc(1261px - 235px);
+  padding:0 20px;
 }
+
+.dropdown-toggle {
+  color: #333; 
+}
+
+.dropdown-toggle:hover {
+  color:var(--primary-color); 
+}
+
+.dropdown-menu .dropdown-item {
+  color: #555;
+  padding: 8px 16px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: var(--primary-color);
+}
+
+
 
 @media screen and (max-width:1300px){
   .header__content--form{
