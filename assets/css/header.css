@@ -136,6 +136,7 @@
   .header__content--button {
     bottom: 8px;
     right: 15px;
+    top:20px;
   }
   .header__content--logo{
     position:absolute;
