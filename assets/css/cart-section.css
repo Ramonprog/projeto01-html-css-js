@@ -43,31 +43,26 @@
   margin-bottom: 10px;
 }
 
-/* Element: product-card__title */
 .product-card__title {
    font-size: 14px;
    font-weight:400;
 }
 
-/* Element: product-card__price--old */
 .product-card__price--old {
     text-decoration: line-through;
     color: #303030;
     font-size: 14px;
 }
 
-/* Element: product-card__price--new */
 .product-card__price--new {
     font-size: 16px;
     font-weight: 700;
 }
 
-/* Element: product-card__installments */
 .product-card__installments {
     font-size: 12px;
 }
 
-/* Block: product-card__btn */
 .product-card__btn {
     margin-top: 16px;
     width: 100%;

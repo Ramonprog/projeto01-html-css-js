@@ -12,8 +12,8 @@
 .topbar__text {
   font-weight: 700;
   font-size: .875rem;
-   max-width: 90%;
-   word-wrap: break-word; 
+  max-width: 90%;
+  word-wrap: break-word; 
 }
 
 .topbar__text--spanColor{

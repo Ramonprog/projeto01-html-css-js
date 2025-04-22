@@ -15,10 +15,10 @@
 }
 
 .header__content--form{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%; 
 }
 
 .header__content--inputarea {
@@ -44,6 +44,7 @@
   all: unset;
   position: absolute;
   right: 10px;
+  top:8px;
   cursor: pointer;
   font-size: 18px;
   color: #666;
@@ -108,7 +109,7 @@
 }
 
 .dropdown-toggle {
-  color: #333; 
+  color: #656565; 
 }
 
 .dropdown-toggle:hover {
@@ -116,14 +117,13 @@
 }
 
 .dropdown-menu .dropdown-item {
-  color: #555;
+  color: #656565;
   padding: 8px 16px;
 }
 
 .dropdown-menu .dropdown-item:hover {
   color: var(--primary-color);
 }
-
 
 
 @media screen and (max-width:1300px){

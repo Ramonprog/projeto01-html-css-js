@@ -15,13 +15,13 @@
 }
 
 .swiper-container {
-    height: 500px !important; 
-    width: 600px !important;
-    overflow: visible !important; 
+  height: 500px !important; 
+  width: 600px !important;
+  overflow: visible !important; 
 }
 
 .swiper-wrapper {
-    padding-bottom: 40px !important;
+  padding-bottom: 40px !important;
 }
 
 .mt-correction {

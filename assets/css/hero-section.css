@@ -29,10 +29,10 @@
 }
 
 .hero-content--textColorOne{
-    font-weight:700;
-    font-size:25px;
-    letter-spacing:6px;
-    color:var(--primary-color);
+  font-weight:700;
+  font-size:25px;
+  letter-spacing:6px;
+  color:var(--primary-color);
 }
 
 .hero-content--textColorTwo{
