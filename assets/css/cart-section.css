@@ -26,6 +26,7 @@
 }
 
 .product-card {
+  position:relative;
   width: 238px;
   height: 409px;
   border: 1px solid #DDDDDD;
@@ -33,6 +34,15 @@
   padding:6px 8px 8px 8px ;
   display: flex;
   flex-direction: column;,
+}
+
+.tag-new{
+  position:absolute;
+  background-color:#00264E;
+  color:white;
+  padding:2px 6px;
+  border-radius:5px;
+  font-weight:700;
 }
 
 .product-card__img {
