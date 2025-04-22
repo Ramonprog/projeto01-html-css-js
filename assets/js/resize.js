@@ -21,7 +21,7 @@ function toggleNav() {
         ul.style.display = "flex";
         hamburger.style.display = "none";
         userArea.style.display = "flex";
-        secondCard.style.display = "flex";
+        secondCard.style.display = "block";
         footerInfos.style.display = "flex";
         fakeCollapse.style.display = "none";
         footerTextDesk.style.display = "block";
