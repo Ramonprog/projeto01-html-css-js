@@ -108,9 +108,7 @@
   .footer__brand{
     width:100%;
     align-items: center;
-  }
-  .footer__brand i{
-    font-size:1.625rem;
+    margin-bottom:48px;
   }
   .footer-payments{
       margin-top:1.875rem;
