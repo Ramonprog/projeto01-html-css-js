@@ -108,6 +108,14 @@
   padding:0 20px;
 }
 
+.drop-columns-mobile{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  gap:40px;
+  padding:0 20px;
+}
+
 .dropdown-toggle {
   color: #656565; 
 }
@@ -147,5 +155,9 @@
     position:absolute;
     right:25px;
     top:-5px;
+  }
+
+  #menu-hamburger{
+    font-size:1.5rem;
   }
 }
